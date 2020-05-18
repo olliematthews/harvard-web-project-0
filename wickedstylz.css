@@ -1,0 +1,47 @@
+h1, h2 {
+  font-family: Arial, sans-serif; }
+
+table {
+  border-collapse: collapse; }
+
+table, th, td {
+  text-align: center;
+  width: 50px,50px,auto;
+  border: 1px solid black; }
+
+div {
+  border: 1px;
+  padding: 5px;
+  border-style: dashed;
+  border-color: blue; }
+
+body {
+  padding: 20px; }
+
+h1 {
+  color: purple; }
+
+h2 {
+  color: blue; }
+
+.emphasis {
+  font-weight: bold;
+  color: #329da8; }
+
+#amirite {
+  font-weight: bold; }
+
+@media (min-width: 1000px) {
+  #disappear {
+    font-size: 9px; }
+
+  #appear {
+    display: none; } }
+@media (max-width: 999px) {
+  #disappear {
+    display: none; }
+
+  #appear {
+    font-size: 48px; } }
+
+/*# sourceMappingURL=wickedstylz.css.map */
